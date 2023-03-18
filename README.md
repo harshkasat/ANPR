@@ -3,7 +3,7 @@
 ## Table of Contents
 + [About](#about)
 + [Getting Started](#getting_started)
-+ [Usage](#usage)
++ [Dataset](#dataset)
 + [Contributing](../CONTRIBUTING.md)
 
 ## About <a name = "about"></a>
@@ -40,6 +40,10 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo.
 
-## Usage <a name = "usage"></a>
-
-Add notes about how to use the system.
+## Dataset <a name = "dataset"></a>
+* run first four command line in ```Training and Detection.ipynb``` to form path for image Directory
+* Get dataset from https://www.kaggle.com/datasets/andrewmvd/car-plate-detection
+* Divide dataset into two parts test and train
+* allocate image and anotation in same file like this 
+![alt text](https://github.com/harshkasat/ANPR/blob/master/screenshot/train%20dataset%20screenshot.png)
+* do this for test set also
