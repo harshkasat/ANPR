@@ -25,8 +25,14 @@ pip  install -r requirements.txt
 ### Installing
 #### Image Collections.ipynb to collect data from webcam
 * For labeling image use Image Collection.ipynb
-#### For our usage with kaggle dataset 
-https://www.kaggle.com/datasets/andrewmvd/car-plate-detection
+
+## Dataset <a name = "dataset"></a>
+* run first four command line in ```Training and Detection.ipynb``` to form path for image Directory
+* Get dataset from https://www.kaggle.com/datasets/andrewmvd/car-plate-detection
+* Divide dataset into two parts test and train
+* allocate image and anotation in same file like this 
+![alt text](https://github.com/harshkasat/ANPR/blob/master/screenshot/train%20dataset%20screenshot.png)
+* do this for test set also
 
 
 #### Traning and Detection.ipynb
@@ -40,10 +46,3 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo.
 
-## Dataset <a name = "dataset"></a>
-* run first four command line in ```Training and Detection.ipynb``` to form path for image Directory
-* Get dataset from https://www.kaggle.com/datasets/andrewmvd/car-plate-detection
-* Divide dataset into two parts test and train
-* allocate image and anotation in same file like this 
-![alt text](https://github.com/harshkasat/ANPR/blob/master/screenshot/train%20dataset%20screenshot.png)
-* do this for test set also
