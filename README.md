@@ -12,6 +12,7 @@ ANPR (Automatic Number Plate Recognition) is a technology that uses cameras and 
 ## Getting Started <a name = "getting_started"></a>
 
 ### Prerequisites
+* python  ```python==3.9.13```
 * make venv 
 ```
 python -m venv anprsys
