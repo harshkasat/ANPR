@@ -7,12 +7,15 @@
 + [Contributing](../CONTRIBUTING.md)
 
 ## About <a name = "about"></a>
-Write about 1-2 paragraphs describing the purpose of your project.
+ANPR (Automatic Number Plate Recognition) is a technology that uses cameras and software to read and interpret vehicle registration plates. It is widely used in law enforcement, traffic management, toll collection, and parking enforcement. ANPR can quickly identify and track vehicles of interest, making it a valuable tool for improving public safety and security.
 
 ## Getting Started <a name = "getting_started"></a>
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
 ### Prerequisites
+* make venv 
+```
+python -m venv anprsys
+```
 * activate venv in local system
 ```
 .\anprsys\Scripts\activate
